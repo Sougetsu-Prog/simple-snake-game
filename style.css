@@ -6,3 +6,49 @@ canvas {
     margin-top: 40px;
     border: 1px solid lightslategray;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.gameInfo {
+    padding: 10px;
+}
+
+.green {
+    display: inline-block;
+    width: 0.7em;
+    height: 0.7em;
+    background-color: green;
+}
+
+.red {
+    display: inline-block;
+    width: 0.7em;
+    height: 0.7em;
+    background-color: red;
+}
+
+ul {
+    margin: 0;
+    padding-left: 25px;
+    list-style-type: square;
+}
+
+.howToMove {
+    padding: 10px;
+}
+
+.direction div,
+.key div {
+    line-height: 1em;
+    margin: 0.5em;
+}
+
+.direction,
+.key {
+    display: flex;
+    flex-direction: column;
+}
