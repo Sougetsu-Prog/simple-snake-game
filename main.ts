@@ -149,6 +149,6 @@ function displayGameOver(gameInterval: number, reason: string) {
     }
 }
 
-let gameInterval = setInterval(() => {
+let gameInterval: number = Number(setInterval(() => {
     gameLoop();
-}, 150);
+}, 150));
